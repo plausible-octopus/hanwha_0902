@@ -1,6 +1,6 @@
 # ex0903 (09/03) — Python · Streamlit · NumPy · Matplotlib
 
-둘째날. Python 기본 문법을 복습하고, **NumPy/Pandas로 데이터를 다루고 Streamlit과 Matplotlib으로 출력하는 방법** 학습
+Day2 Python 기본 문법을 복습하고, **NumPy/Pandas로 데이터를 다루고 Streamlit과 Matplotlib으로 출력하는 방법** 학습
 
 ## 다루는 내용
 
