@@ -1,6 +1,6 @@
 # ex0904 (09/04) — Python 문법 · NumPy · Git/GitHub
 
-셋째 날. Python 문법을 복습하고 **NumPy 배열과 인덱싱**,  
+Day3. Python 문법을 복습하고 **NumPy 배열과 인덱싱**,  
 **Git/GitHub를 이용한 버전 관리**를 학습.
 
 ## 다루는 내용
