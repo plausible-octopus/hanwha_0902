@@ -23,3 +23,11 @@
 2. NumPy 기초 및 배열 연산
 3. Streamlit과 Altair를 활용한 데이터 시각화
 4. Git / GitHub 및 GitHub Desktop 사용
+
+## 2026-09-07
+
+1. Git / GitHub 충돌 및 복구 실습
+2. VS Code 디버깅 및 Breakpoint 사용
+3. Pydantic 데이터 검증 및 타입 변환
+4. Pydantic 기본값, Optional 및 중첩 모델
+5. Python 조건문 및 리스트 활용
