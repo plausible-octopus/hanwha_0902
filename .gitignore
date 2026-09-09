@@ -3,4 +3,5 @@ venv/
 .firstvenv/
 .thirdvenv/
 __pycache__/
-.DS_Store
+.DS_Store.fastvenv/
+ex0908/.fastvenv/
