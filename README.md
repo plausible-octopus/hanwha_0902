@@ -54,5 +54,5 @@
 1. Streamlit과 FastAPI 프론트엔드·백엔드 연결
 2. requests를 활용한 Streamlit → FastAPI 데이터 전송
 3. POST 요청과 JSON을 활용한 데이터 송수신
-4. Streamlit 채팅 화면 및 FastAPI `/chat` API 구현
-5. FastAPI 터미널에서 요청 데이터 및 `200 OK` 확인
+4. Streamlit 채팅 화면 및 FastAPI `/chat` API(챗봇) 구현
+5. 5. Streamlit과 FastAPI 간 데이터 송수신 확인
