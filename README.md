@@ -31,3 +31,28 @@
 3. Pydantic 데이터 검증 및 타입 변환
 4. Pydantic 기본값, Optional 및 중첩 모델
 5. Python 조건문 및 리스트 활용
+
+## 2026-09-08
+
+1. FastAPI 기본 구조 및 서버 실행
+2. 경로 매개변수와 쿼리 매개변수
+3. Enum을 활용한 입력값 제한
+4. Pydantic BaseModel을 활용한 데이터 검증
+5. GET / POST 요청 기초
+
+## 2026-09-09
+
+1. FastAPI CRUD 개념 및 구현
+2. GET을 활용한 데이터 조회
+3. POST를 활용한 데이터 생성
+4. PUT을 활용한 데이터 수정
+5. DELETE와 pop()을 활용한 데이터 삭제
+6. Swagger를 활용한 API 테스트
+
+## 2026-09-10
+
+1. Streamlit과 FastAPI 프론트엔드·백엔드 연결
+2. requests를 활용한 Streamlit → FastAPI 데이터 전송
+3. POST 요청과 JSON을 활용한 데이터 송수신
+4. Streamlit 채팅 화면 및 FastAPI `/chat` API 구현
+5. FastAPI 터미널에서 요청 데이터 및 `200 OK` 확인
