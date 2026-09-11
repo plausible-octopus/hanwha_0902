@@ -132,8 +132,17 @@ python keytest.py
 OpenAI API 연결 성공
 OK
 ```
-교재 저자 깃허브 계정:teddylee777
+- 교재 저자 GitHub 계정: `teddylee777`
+- LangChain은 버전에 따라 코드 사용법이 달라질 수 있음
+- 교재 코드와 현재 설치된 LangChain 버전이 다르면 오류가 발생할 수 있음
+- 코드가 맞는데 오류가 나면 먼저 버전 차이 확인
+
+### 현재 LangChain 버전 확인
+
+```cmd
+pip show langchain
 ---
+pip list | findstr langchain
 
 ## 핵심 정리
 
