@@ -56,3 +56,11 @@
 3. POST 요청과 JSON을 활용한 데이터 송수신
 4. Streamlit 채팅 화면 및 FastAPI `/chat` API(챗봇) 구현
 5. 5. Streamlit과 FastAPI 간 데이터 송수신 확인
+  
+## 2026-09-11
+
+1. OpenAI API Key 환경변수 설정 및 API 연결
+2. LangChain `ChatOpenAI`를 활용한 LLM 호출
+3. `invoke()`를 활용한 질문 및 응답 처리
+4. LangChain 버전별 `model_name` / `model` 사용법 확인
+5. `requirements.txt`를 활용한 Python 패키지 관리
