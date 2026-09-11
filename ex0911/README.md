@@ -200,3 +200,16 @@ print(langchain.__version__)
 ```
 
 > 교재와 현재 설치된 LangChain의 버전 차이로 코드가 그대로 실행되지 않을 수 있으므로 버전을 확인하고 현재 버전에 맞는 사용법으로 변경한다.
+
+## requirements.txt
+
+- 프로젝트에 필요한 Python 패키지와 버전을 기록하는 파일
+- `.venv` 대신 `requirements.txt`를 GitHub에 업로드
+
+```bash
+# 현재 설치된 패키지 저장
+pip freeze > requirements.txt
+
+# 패키지 일괄 설치
+pip install -r requirements.txt
+```
