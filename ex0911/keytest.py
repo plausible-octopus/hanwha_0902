@@ -10,7 +10,7 @@ client = OpenAI(api_key=api_key)
 
 try:
     response = client.responses.create(
-        model="gpt-5.6-luna",
+        model="gpt-4o-mini",
         input="연결 테스트입니다. OK라고만 답해줘."
     )
 

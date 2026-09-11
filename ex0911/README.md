@@ -151,3 +151,52 @@ pip list | findstr langchain
 - `.env`는 `.gitignore`에 추가해서 GitHub 업로드 차단
 - `python-dotenv`로 `.env`의 값을 Python에서 불러옴
 - 실제 코드에는 API Key를 직접 작성하지 않음
+
+## LangChain 버전에 따른 모델 설정
+
+### ChatOpenAI 모델 지정
+
+LangChain 버전에 따라 `ChatOpenAI`의 모델 지정 방식이 다를 수 있으므로 버전 확인 필요.
+
+### 이전 버전 예시 (0.3.x)
+
+```python
+llm = ChatOpenAI(
+    temperature=0.1,
+    model_name="gpt-4o-mini"
+)
+```
+
+### 1.x 버전
+
+```python
+llm = ChatOpenAI(
+    temperature=0.1,
+    model="gpt-4o-mini"
+)
+```
+
+### 핵심
+
+- 교재나 기존 예제는 LangChain `0.3.x` 버전 기준일 수 있음
+- 현재 LangChain `1.x` 버전과 기존 예제 코드의 사용법이 다를 수 있음
+- 코드 실행 전 현재 설치된 LangChain 버전 확인
+- 버전 차이로 오류가 발생하면 현재 버전에 맞게 코드 수정
+- `model_name="gpt-4o-mini"` → `model="gpt-4o-mini"` 형태로 변경해서 사용
+
+### LangChain 버전 확인
+
+터미널에서 확인:
+
+```bash
+pip show langchain
+```
+
+Python에서 확인:
+
+```python
+import langchain
+print(langchain.__version__)
+```
+
+> 교재와 현재 설치된 LangChain의 버전 차이로 코드가 그대로 실행되지 않을 수 있으므로 버전을 확인하고 현재 버전에 맞는 사용법으로 변경한다.
