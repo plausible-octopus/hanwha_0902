@@ -102,7 +102,7 @@ from openai import OpenAI
 
 load_dotenv()
 
-api_key = os.getenv("OPENAI_API_KEY")
+api_key = os.getenv("HANWHA_OPENAI_KEY")
 
 client = OpenAI(api_key=api_key)
 
@@ -132,7 +132,7 @@ python keytest.py
 OpenAI API 연결 성공
 OK
 ```
-
+교재 저자 깃허브 계정:teddylee777
 ---
 
 ## 핵심 정리
