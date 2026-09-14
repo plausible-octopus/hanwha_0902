@@ -64,3 +64,12 @@
 3. `invoke()`를 활용한 질문 및 응답 처리
 4. LangChain 버전별 `model_name` / `model` 사용법 확인
 5. `requirements.txt`를 활용한 Python 패키지 관리
+
+## 2026-09-14
+
+1. LangChain / LangGraph를 활용한 AI Agent 기본 실습
+2. Tool 정의 및 Agent 연결
+3. `.env`를 활용한 OpenAI / LangSmith 환경변수 관리
+4. LangSmith 프로젝트 생성 및 Tracing 설정
+5. LangSmith를 활용한 ChatOpenAI / LangGraph 실행 과정 추적
+6. Agent의 LLM 호출 → Tool 실행 → 최종 응답 흐름 확인
